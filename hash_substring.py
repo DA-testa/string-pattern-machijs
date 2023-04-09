@@ -6,7 +6,7 @@ def read_input():
         text = input().rstrip()
     elif input_type == 'F':
         file_name = input("File: ").strip()
-        file_path = f'tests/{file_name}'
+        file_path = f'/tests/{file_name}'
         
         with open(file_path, 'r') as file:
             pattern = file.readline().rstrip()
