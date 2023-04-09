@@ -9,8 +9,8 @@ def read_input():
         file_path = f'/tests/{file_name}'
         
         with open(file_path, 'r') as file:
-            pattern = file.readline().rstrip()
-            text = file.readline().rstrip()
+            pattern = file.readline()
+            text = file.readline()
     else:
         print("Invalid input type.")
         return
