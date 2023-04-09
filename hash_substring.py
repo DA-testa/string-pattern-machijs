@@ -1,5 +1,5 @@
 def read_input():
-    input_type = input("I or F: ").strip().upper()
+    input_type = input().strip().upper()
 
     if input_type == 'I':
         pattern = input().rstrip()
@@ -18,7 +18,7 @@ def read_input():
     return (pattern, text)
 
 def print_occurrences(output):
-    print('\n'.join(map(str, output)))
+    print(' '.join(map(str, output)))
 
 def get_occurrences(pattern, text):
     result = []
