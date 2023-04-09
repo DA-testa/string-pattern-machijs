@@ -18,7 +18,7 @@ def read_input():
     return (pattern, text)
 
 def print_occurrences(output):
-    print(' '.join(map(str, output)))
+    print('\n'.join(map(str, output)))
 
 def get_occurrences(pattern, text):
     result = []
